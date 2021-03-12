@@ -6,6 +6,7 @@ import zen.bean.Student;
 public class ZenTest {
 	@Test
 	public void testZen(){
+		// 这是一个中文注解测试
 		String config = "applicationContext.xml";
 		ApplicationContext ctx = new ClassPathXmlApplicationContext(config);
 
